@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+.container{max-width:1200px;
+    width:90%;margin:0}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/images.html/header-image.jpg);background-size: cover;background-repeat: no-repeat;background-position: center;height:96vh;padding: 20px;
+}
+
+*{margin: 0px;
+padding: 0px;box-sizing: border-box;}   
+body{font-family: 'Montserrat', sans-serif;} 
+.A{color: azure;
+    width:5%;
+    display: inline-block;
+    margin-left: 300px;
+    font-size: 2em;
+    ;
+}
+.T{font-size:1em ;font-weight: 300;}
+.B{
+    margin-left:980px;
+    font-size: 1.3em;
+    text-decoration: none;
+    color:whitesmoke;
+    display: inline-block;
+}
+a:hover{color: blue;
+text-decoration: underline;
+}
+.C{
+    margin-left:16px;
+    font-size: 1.3em;
+    text-decoration: none;
+    color:whitesmoke;
+    
+}
+.D{
+    margin-left:16px;
+    font-size: 1.3em;
+    text-decoration:none ;
+    color:whitesmoke;
+}
+section{
+    
+    text-align: center;color: azure;margin-top: 300px;width:auto
+}
+.W{ text-decoration: none;
+    border-radius: 100px;
+    padding: 20px;
+    background-color: blanchedalmond;
+    color: orange;
+    font-size: 1.3em;
+}
+.W:hover{color: grey;}
+/* for clearing float and to remove the block we must use this pseudo elements after,before */
+.MNO{width:24.2%;height:250px;float:left;box-sizing: border-box;text-align: center;padding: 20px;background-color:rgb(48, 47, 47);color:white;line-height: 30px}
+.MNO::after{
+    content:"";  
+    clear: both;
+    display: block;
+}
+.ABC{background-color:rgb(48, 47, 47);color: white;box-sizing: border-box;height:200px;margin-top: 80px}
+
+article{height: 85vh;background-color: lightslategray}
+.u{
+    margin-left: 370px;
+}
+
+.image_1{width: 36.5%;float: left;height:310px;}
+.UK{width: 36.5%;float:left;padding:25px;background-color: wheat ;font-size: 20px;height:310px;}
+.UK_1{border-radius: 52px;border: 3px solid red;padding: 14px;;width: 25%;color: red;text-align: center;;font-weight:bolder;}
+.EGYPT_1{margin-left: 370px;}
+.EGYPT_2{width: 36.5%;float:left;padding:25px;background-color: wheat ;font-size: 20px;height:310px;}
+.Egypt_3{border-radius: 52px;border: 3px solid red;padding: 14px;box-sizing: border-box;width: 25%;color: red;text-align: center;;font-weight:bolder;}
+.image_2{width: 36.5%;float: left;height: 310px;}
+.S1{clear:both;}
+.Full{height: 60vh;background-color:white;}
+.dw{margin-left: 370px;background-color: lightgrey;margin-top: 150px;}
+.F1{width:24.2%;height:250px;float:left;box-sizing: border-box;text-align: center;padding: 20px;background-color:rgb(48, 47, 47);color:rgb(255, 255, 255);line-height: 30px}
+.F1_1{font-size: 800;}
+.G1{width:24.2%;height:250px;float:left;box-sizing: border-box;text-align: center;padding: 20px;background-color: rgb(240, 73, 73);color:white;line-height: 30px}
+
+
+@media screen and (max-width:1000px) {
+    *{
+        background-color: cadetblue!important;  
+    }
+}
